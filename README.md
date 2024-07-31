@@ -11,20 +11,16 @@ I also use matrix multiplication and backpropagation to calculate the weights an
 The comparison between my model and the **tensor flow sequential model** is discussed at the end.
 - - - -
 #### These statistics are being examined right now: ####
-  * <a  href="https://archive.ics.uci.edu/dataset/45/heart+disease">Heart Disease<a/>
-  * <a href="https://archive.ics.uci.edu/dataset/53/iris">Iris Flowers<a/>
-  * <a href="https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic">Breast Cancer<a/>
-#### These features are included in this expiration: ####
-  * Confusion matrix
-  * Tree plot
-  * Roc-Auc Curve
-  * PCA Scree plot
-  * Scatter PCA 2D-3D graph
-  * Scatter MDS graph  
+ 
+#### These features of Ann studied here: ####
+  * Diffirent optimizers (Adam,Adagrad,SGD,Rmsprop)
+  * Diffirent activation functions (sigmoid,relu,tanh)
+  * Epochs ,Batch size ,Learning rate ,Loss functions,N-jobs = ("Number of cpu cores to use")
+    
 - - - -
-### Some pictures after running code
+### Show some equations used for the backprop process
 <div align="center" style="display:flex;flex-direction:row;align-items: center;">
-  <img style="margin:10;" src="https://github.com/tohidnoori/Decision-tree-and-random-forest-ml-python/blob/master/random-forest/images/cf.png" width="400" height="400" alt="Image 1">
+    <img style="margin:10;" src="https://github.com/tohidnoori/Decision-tree-and-random-forest-ml-python/blob/master/random-forest/images/cf.png" width="400" height="400" alt="Image 1">
     <img style="margin:10;" src="https://github.com/tohidnoori/Decision-tree-and-random-forest-ml-python/blob/master/random-forest/images/ROC-AUC%20curve.png" width="400" height="400"  alt="Image 2">
   <div/>
 <br/>
