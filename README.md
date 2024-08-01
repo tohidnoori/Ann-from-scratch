@@ -56,3 +56,8 @@ The comparison between my model and the **tensor flow sequential model** is disc
     </td>
   </tr>
 </table>
+<br/>
+<div align="center" style="display:flex;flex-direction:row;align-items: center;">
+  <img style="margin:10;" src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/Roc-auc.png" width="600" height="500" alt="Image 1">
+<div/>
+<p>Roc-auc curve</p>
