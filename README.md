@@ -19,15 +19,40 @@ The comparison between my model and the **tensor flow sequential model** is disc
     
 - - - -
 ### Some equations used for the backprop process
-<div align="center" style="display:flex;flex-direction:row;align-items: center;">
-    <div  width="800" height="400">
-     <img style="margin:10;" src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/Hidden%20Layer%20weight's%20backpropagation.png" width="800" height="400" alt="Image 1">
-     <p>Hidden layer weight's backpropagation</p>
-    </div>
-<div/>
-  <div align="center" style="display:flex;flex-direction:row;align-items: center;">
-    <div  width="800" height="400">
-     <img style="margin:10;" src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/Output%20Layer%20bias%20backpropagation.png" width="500" height="400" alt="Image 1">
-     <p>Output layer bias backpropagation</p>
-    </div>
-<div/>
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/Hidden%20Layer%20weight's%20backpropagation.png" width="500" height="400" alt="Hidden layer weight's backpropagation">
+      <p>Hidden layer weight's backpropagation</p>
+    </td>
+    <td align="center">
+      <img src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/Output%20Layer%20bias%20backpropagation.png" width="500" height="400" alt="Output layer bias backpropagation">
+      <p>Output layer bias backpropagation</p>
+    </td>
+  </tr>
+</table>
+<br/>
+
+### My handwritten model Vs Tensor model
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/My model confusion matrix.png" width="500" height="400" alt="Hidden layer weight's backpropagation">
+      <p>My model confusion matrix</p>
+      <p>Precision: 0.7168 
+       <br/>
+       Accuracy: 0.6120   
+       <br/>
+       Sensitivity (Recall): 0.3333</p>
+    </td>
+    <td align="center">
+      <img src="https://github.com/tohidnoori/Ann-from-scratch/blob/main/images/Tensor flow model confusion matrix.png" width="500" height="400" alt="Output layer bias backpropagation">
+      <p>Tensor flow model confusion matrix</p>
+      <p>Precision: 0.7171
+        <br/>
+        Accuracy: 0.6920 
+        <br/>
+        Sensitivity (Recall): 0.6049</p>
+    </td>
+  </tr>
+</table>
